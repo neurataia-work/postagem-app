@@ -1,0 +1,20 @@
+{
+  "name": "postagem-app",
+  "version": "1.0.0",
+  "description": "App de agendamento e publicação automática em redes sociais",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "multer": "^2.5.0"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
